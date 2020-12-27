@@ -6,6 +6,9 @@ RUN set -x && \
     apt-get update && \
     apt-get install -y --no-install-recommends \
     cmake \
-    libmagic-dev
+    libmagic-dev \
+    imagemagick \
+    ffmpeg \
+    libimage-exiftool-perl
 
 USER elixir
