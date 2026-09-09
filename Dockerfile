@@ -1,4 +1,4 @@
-FROM ghcr.io/h3poteto/elixir:1.17.2-slim
+FROM ghcr.io/h3poteto/elixir:1.20.4-slim
 
 USER root
 
